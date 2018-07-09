@@ -176,16 +176,16 @@
         <translation>Patvirtinkite piniginės užšifravimą.</translation>
     </message>
     <message>
-        <source>SMRTC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>Dabar SMRTC išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų PIV nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
+        <source>SMRTC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Smrtcs from being stolen by malware infecting your computer.</source>
+        <translation>Dabar SMRTC išsijungs, kad būtų užbaigtas šifravimo procesas. Atminkite, kad jūsų piniginės užšifravimas negali visiškai apsaugoti jūsų Smrtc nuo kenkėjiškų programų, užkrėsto jūsų kompiuterio.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Ar tikrai norite užšifruoti savo piniginę?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Smrtc&lt;/b&gt;!</source>
+        <translation>Įspėjimas: jei užšifruosite savo piniginę ir prarasite slaptafrazę, jūs &lt;b&gt;PRARASITE VISUS SAVO Smrtc&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Naršyti pavedimų istoriją</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>zPIV Saugumo Veiksmai </translation>
+        <source>Privacy Actions for zSmrtc</source>
+        <translation>zSmrtc Saugumo Veiksmai </translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1651,8 +1651,8 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Adresas / Suma:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Pridėkite vietas, kurioms norite siųsti PIV</translation>
+        <source>Add destinations to send Smrtc to</source>
+        <translation>Pridėkite vietas, kurioms norite siųsti Smrtc</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1750,32 +1750,32 @@ Patikrinkite adresą ir bandykite dar kartą.</translation>
         <translation>Pasirinkite privatumo lygmenį.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 Smrtc</source>
+        <translation>Naudokite 2 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 Smrtc</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 Smrtc</source>
+        <translation>Naudokite 8 atskirus masternod'us, kad sumaišytumėte lėšas iki 10 000 Smrtc</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Naudokite 16 atskirų masternod'ų</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 PIV, kad anonimizuotų 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 Smrtc to anonymize 10000 Smrtc</source>
+        <translation>Ši parinktis yra greičiausia ir kainuos apie ~0.025 Smrtc, kad anonimizuotų 10000 Smrtc</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 PIV, kad anonimizuotų 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 Smrtc to anonymize 10000 Smrtc</source>
+        <translation>Ši parinktis yra vidutiniškai greita ir kainuoja apie 0,05 Smrtc, kad anonimizuotų 10000 Smrtc</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Tai yra lėčiausias ir saugiausias variantas. Maksimalus anonimiškumas kainuos.</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV kas 1000 PIV kuriuos anonimizuosite.</translation>
+        <source>0.1 Smrtc per 10000 Smrtc you anonymize.</source>
+        <translation>0.1 Smrtc kas 1000 Smrtc kuriuos anonimizuosite.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1890,24 +1890,24 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Įrašyti prievadą naudojant &amp;UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Įgalinti automatinį konvertavimą iš PIV į zPIV</translation>
+        <source>Enable automatic minting of Smrtc units to zSmrtc</source>
+        <translation>Įgalinti automatinį konvertavimą iš Smrtc į zSmrtc</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Įgalinti zPIV Automatinį nukaldinima</translation>
+        <source>Enable zSmrtc Automint</source>
+        <translation>Įgalinti zSmrtc Automatinį nukaldinima</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Procentas gauto PIV, kuris automatiškai bus konvertuotas į zPIV naudojant Zerocoin Protokolą (min: 10%)</translation>
+        <source>Percentage of incoming Smrtc which get automatically converted to zSmrtc via Zerocoin Protocol (min: 10%)</source>
+        <translation>Procentas gauto Smrtc, kuris automatiškai bus konvertuotas į zSmrtc naudojant Zerocoin Protokolą (min: 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Automatiškai sukurtų zPIV procentas</translation>
+        <source>Percentage of autominted zSmrtc</source>
+        <translation>Automatiškai sukurtų zSmrtc procentas</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Pageidautinas zPIV Automatinio Nukaldinimo Nominalas</translation>
+        <source>Preferred Automint zSmrtc Denomination</source>
+        <translation>Pageidautinas zSmrtc Automatinio Nukaldinimo Nominalas</translation>
     </message>
     <message>
         <source>Connect to the SMRTC network through a SOCKS5 proxy.</source>
@@ -2029,8 +2029,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Bendras balansas, įskaitant visas nepasiekiamas monetas.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>PIV Balansas</translation>
+        <source>Smrtc Balance</source>
+        <translation>Smrtc Balansas</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2057,14 +2057,14 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Jūsų dabartinis SMRTC balansas, įskaitant nepatvirtintus ir nesubrendusius sandorius</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>zPIV Balansas</translation>
+        <source>zSmrtc Balance</source>
+        <translation>zSmrtc Balansas</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zSmrtc are spendable.</source>
         <translation>Subrendę: daugiau nei 20 patvirtinimų ir daugiau nei 1 konvertacija to pačio nominalo, kai jis jau buvo konvertuotas.
-Šiuos zPIV galima išleisti.</translation>
+Šiuos zSmrtc galima išleisti.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2117,8 +2117,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prienamas išleidimui:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>Užrakinti PIV arba Masternode užstatai. Jie yra neįtraukti į zPIV kalimą.</translation>
+        <source>Locked Smrtc or Masternode collaterals. These are excluded from zSmrtc minting.</source>
+        <translation>Užrakinti Smrtc arba Masternode užstatai. Jie yra neįtraukti į zSmrtc kalimą.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2222,8 +2222,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zSmrtc</source>
+        <translation>zSmrtc</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2234,8 +2234,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinama Konvertavimui:</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 Smrtc</source>
+        <translation>0.000 000 00 Smrtc</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -2266,12 +2266,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>PRIVATUMAS</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
+        <source>zSmrtc Control</source>
         <translation>zPiv Kontrolė</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>Pasirinkta zPIV:</translation>
+        <source>zSmrtc Selected:</source>
+        <translation>Pasirinkta zSmrtc:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2290,8 +2290,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Prieinamas Balansas: </translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zSmrtc</source>
+        <translation>0 zSmrtc</translation>
     </message>
     <message>
         <source>Security Level:</source>
@@ -2338,8 +2338,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos to pačio nominalo
         <translation>Zerocoin Statistika:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zPIV</translation>
+        <source>Total Balance including unconfirmed and immature zSmrtc</source>
+        <translation>Bendras balansas, įskaitant nepatvirtintą ir nesubrendusį zSmrtc</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2516,12 +2516,12 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Kopijuoti sumą</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>zPIV Išleidimas #:</translation>
+        <source>zSmrtc Spend #: </source>
+        <translation>zSmrtc Išleidimas #:</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>zPIV Konvertavimas</translation>
+        <source>zSmrtc Mint</source>
+        <translation>zSmrtc Konvertavimas</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2628,8 +2628,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>su Saugumo Lygmeniu</translation>
     </message>
     <message>
-        <source>Failed to spend zPIV</source>
-        <translation>Nepavyko išleisti zPIV</translation>
+        <source>Failed to spend zSmrtc</source>
+        <translation>Nepavyko išleisti zSmrtc</translation>
     </message>
     <message>
         <source>serial: </source>
@@ -3001,8 +3001,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>Pasirinktinio pakeitimo adresas</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 Smrtc</source>
+        <translation>0 Smrtc</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3455,8 +3455,8 @@ Nesubrendusios: patvirtintos, bet mažiau nei 1 konvertacijos tos pačio nominal
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zSmrtc</source>
+        <translation>zSmrtc</translation>
     </message>
     </context>
 <context>

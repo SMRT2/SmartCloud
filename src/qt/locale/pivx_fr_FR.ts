@@ -176,16 +176,16 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>SMRTC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your PIVs from being stolen by malware infecting your computer.</source>
-        <translation>SMRTC va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos PIVs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>SMRTC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your Smrtcs from being stolen by malware infecting your computer.</source>
+        <translation>SMRTC va maintenant se fermer pour finir le processus de cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos Smrtcs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Êtes-vous sûr de vouloir crypter votre portefeuille?</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR PIV&lt;/b&gt;!</source>
-        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS PIV&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Smrtc&lt;/b&gt;!</source>
+        <translation>Attention : si vous cryptez votre portefeuille et perdez votre phrase secrète, vous &lt;b&gt;PERDREZ TOUS VOS Smrtc&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
@@ -433,8 +433,8 @@
         <translation>Afficher l'historique de transaction</translation>
     </message>
     <message>
-        <source>Privacy Actions for zPIV</source>
-        <translation>Actions confidentielles pour zPIV</translation>
+        <source>Privacy Actions for zSmrtc</source>
+        <translation>Actions confidentielles pour zSmrtc</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -1640,8 +1640,8 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Adresse / Montant:</translation>
     </message>
     <message>
-        <source>Add destinations to send PIV to</source>
-        <translation>Ajouter des destinations pour envoyer PIV</translation>
+        <source>Add destinations to send Smrtc to</source>
+        <translation>Ajouter des destinations pour envoyer Smrtc</translation>
     </message>
     <message>
         <source>Add &amp;Destination</source>
@@ -1727,32 +1727,32 @@ S'il vous plaît soyez patient après avoir cliqué sur l'importation.</translat
         <translation>Veuillez sélectionner un niveau de confidentialité.</translation>
     </message>
     <message>
-        <source>Use 2 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 PIV</translation>
+        <source>Use 2 separate masternodes to mix funds up to 10000 Smrtc</source>
+        <translation>Utiliser 2 masternodes différentes pour mélanger les fonds jusqu'a 10000 Smrtc</translation>
     </message>
     <message>
-        <source>Use 8 separate masternodes to mix funds up to 10000 PIV</source>
-        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 PIV</translation>
+        <source>Use 8 separate masternodes to mix funds up to 10000 Smrtc</source>
+        <translation>Utiliser 8 masternodes différentes pour mélanger les fonds jusqu'a 10000 Smrtc</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
         <translation>Utiliser 16 masternodes différents</translation>
     </message>
     <message>
-        <source>This option is the quickest and will cost about ~0.025 PIV to anonymize 10000 PIV</source>
-        <translation>Cette option est la plus rapide, et coutera ~0.025 PIV pour anonymiser 10000 PIV</translation>
+        <source>This option is the quickest and will cost about ~0.025 Smrtc to anonymize 10000 Smrtc</source>
+        <translation>Cette option est la plus rapide, et coutera ~0.025 Smrtc pour anonymiser 10000 Smrtc</translation>
     </message>
     <message>
-        <source>This option is moderately fast and will cost about 0.05 PIV to anonymize 10000 PIV</source>
-        <translation>Cette option est moyennement rapide, et coutera 0.05 PIV pour anonymiser 10000 PIV</translation>
+        <source>This option is moderately fast and will cost about 0.05 Smrtc to anonymize 10000 Smrtc</source>
+        <translation>Cette option est moyennement rapide, et coutera 0.05 Smrtc pour anonymiser 10000 Smrtc</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
         <translation>Il s'agit de l'option la plus lente est la plus sécurisé. Utiliser l'anonymat maximum coutera</translation>
     </message>
     <message>
-        <source>0.1 PIV per 10000 PIV you anonymize.</source>
-        <translation>0.1 PIV par 10000 PIV vous anonymisez.</translation>
+        <source>0.1 Smrtc per 10000 Smrtc you anonymize.</source>
+        <translation>0.1 Smrtc par 10000 Smrtc vous anonymisez.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1887,24 +1887,24 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Répertorier les port utilisant UPnP</translation>
     </message>
     <message>
-        <source>Enable automatic minting of PIV units to zPIV</source>
-        <translation>Activé l'auto-monnayage de PIV unités en zPIV</translation>
+        <source>Enable automatic minting of Smrtc units to zSmrtc</source>
+        <translation>Activé l'auto-monnayage de Smrtc unités en zSmrtc</translation>
     </message>
     <message>
-        <source>Enable zPIV Automint</source>
-        <translation>Activé ZPIV Auto-monnayage</translation>
+        <source>Enable zSmrtc Automint</source>
+        <translation>Activé ZSmrtc Auto-monnayage</translation>
     </message>
     <message>
-        <source>Percentage of incoming PIV which get automatically converted to zPIV via Zerocoin Protocol (min: 10%)</source>
-        <translation>Pourcentage des PIV entrants qui seront automatiquement convertis en zPIV via le protocole Zerocoin (min. 10%)</translation>
+        <source>Percentage of incoming Smrtc which get automatically converted to zSmrtc via Zerocoin Protocol (min: 10%)</source>
+        <translation>Pourcentage des Smrtc entrants qui seront automatiquement convertis en zSmrtc via le protocole Zerocoin (min. 10%)</translation>
     </message>
     <message>
-        <source>Percentage of autominted zPIV</source>
-        <translation>Pourcentage de zPIV auto-monnayé</translation>
+        <source>Percentage of autominted zSmrtc</source>
+        <translation>Pourcentage de zSmrtc auto-monnayé</translation>
     </message>
     <message>
-        <source>Preferred Automint zPIV Denomination</source>
-        <translation>Dénomination préférée d'auto-monnayage zPIV</translation>
+        <source>Preferred Automint zSmrtc Denomination</source>
+        <translation>Dénomination préférée d'auto-monnayage zSmrtc</translation>
     </message>
     <message>
         <source>Stake split threshold:</source>
@@ -2066,8 +2066,8 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Solde total, incluant les pièces indisponibles.</translation>
     </message>
     <message>
-        <source>PIV Balance</source>
-        <translation>Solde de PIV</translation>
+        <source>Smrtc Balance</source>
+        <translation>Solde de Smrtc</translation>
     </message>
     <message>
         <source>Pending:</source>
@@ -2094,14 +2094,14 @@ https://www.transifex.com/smrtc-project/smrtc-project-translations</translation>
         <translation>Votre solde SMRTC actuel, incluant les transactions non confirmées et immatures</translation>
     </message>
     <message>
-        <source>zPIV Balance</source>
-        <translation>Solde de zPIV</translation>
+        <source>zSmrtc Balance</source>
+        <translation>Solde de zSmrtc</translation>
     </message>
     <message>
         <source>Mature: more than 20 confirmation and more than 1 mint of the same denomination after it was minted.
-These zPIV are spendable.</source>
+These zSmrtc are spendable.</source>
         <translation>Maturité: plus de 20 confirmations et plus de 1 monnayer de la même dénomination après sa frappe.
-Ces zPIV sont dépensables.</translation>
+Ces zSmrtc sont dépensables.</translation>
     </message>
     <message>
         <source>Unconfirmed: less than 20 confirmations
@@ -2154,8 +2154,8 @@ Immature: confirmé, mais moins de 1 monnayer de la même dénomination après s
         <translation>Dépensable:</translation>
     </message>
     <message>
-        <source>Locked PIV or Masternode collaterals. These are excluded from zPIV minting.</source>
-        <translation>PIV Verrouillé ou Masternode collatéraux. Ceux-ci sont exclus de la monnayage zPIV.</translation>
+        <source>Locked Smrtc or Masternode collaterals. These are excluded from zSmrtc minting.</source>
+        <translation>Smrtc Verrouillé ou Masternode collatéraux. Ceux-ci sont exclus de la monnayage zSmrtc.</translation>
     </message>
     <message>
         <source>Locked:</source>
@@ -2166,8 +2166,8 @@ Immature: confirmé, mais moins de 1 monnayer de la même dénomination après s
         <translation>Non confirmé:</translation>
     </message>
     <message>
-        <source>Your current zPIV balance, unconfirmed and immature zPIV included.</source>
-        <translation>Votre solde courant zPIV, incluant les zPIV non confirmés et immatures.</translation>
+        <source>Your current zSmrtc balance, unconfirmed and immature zSmrtc included.</source>
+        <translation>Votre solde courant zSmrtc, incluant les zSmrtc non confirmés et immatures.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2178,10 +2178,10 @@ Immature: confirmé, mais moins de 1 monnayer de la même dénomination après s
         <translation>désynchronisé</translation>
     </message>
     <message>
-        <source>Current percentage of zPIV.
+        <source>Current percentage of zSmrtc.
 If AutoMint is enabled this percentage will settle around the configured AutoMint percentage (default = 10%).
 </source>
-        <translation>Le pourcentage actuel de zPIV.
+        <translation>Le pourcentage actuel de zSmrtc.
 Si Auto-monnayage est activé, ce pourcentage sera réglé autour du pourcentage Auto-monnayage configuré (par défaut = 10%).</translation>
     </message>
     <message>
@@ -2324,8 +2324,8 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zSmrtc</source>
+        <translation>zSmrtc</translation>
     </message>
     <message>
         <source>Available for minting are coins which are confirmed and not locked or Masternode collaterals.</source>
@@ -2336,8 +2336,8 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>Disponible pour Monnayage:</translation>
     </message>
     <message>
-        <source>0.000 000 00 PIV</source>
-        <translation>0.000 000 00 PIV</translation>
+        <source>0.000 000 00 Smrtc</source>
+        <translation>0.000 000 00 Smrtc</translation>
     </message>
     <message>
         <source>Reset Zerocoin Wallet DB. Deletes transactions that did not make it into the blockchain.</source>
@@ -2376,16 +2376,16 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>CONFIDENTIALITÉ</translation>
     </message>
     <message>
-        <source>Enter an amount of Piv to convert to zPIV</source>
-        <translation>Entrez un montant de PIV à convertir en zPIV</translation>
+        <source>Enter an amount of Piv to convert to zSmrtc</source>
+        <translation>Entrez un montant de Smrtc à convertir en zSmrtc</translation>
     </message>
     <message>
-        <source>zPIV Control</source>
-        <translation>Contrôle zPIV</translation>
+        <source>zSmrtc Control</source>
+        <translation>Contrôle zSmrtc</translation>
     </message>
     <message>
-        <source>zPIV Selected:</source>
-        <translation>zPIV sélectionné:</translation>
+        <source>zSmrtc Selected:</source>
+        <translation>zSmrtc sélectionné:</translation>
     </message>
     <message>
         <source>Quantity Selected:</source>
@@ -2400,24 +2400,24 @@ Pour activer Auto-monnayage, changez 'enablezeromint = 0' en 'enablezeromint = 1
         <translation>Dépenser Zerocoin</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending</source>
-        <translation>zPIV disponibles (matures et dépensables) pour dépenser</translation>
+        <source>Available (mature and spendable) zSmrtc for spending</source>
+        <translation>zSmrtc disponibles (matures et dépensables) pour dépenser</translation>
     </message>
     <message>
         <source>Available Balance:</source>
         <translation>Solde disponible:</translation>
     </message>
     <message>
-        <source>Available (mature and spendable) zPIV for spending
+        <source>Available (mature and spendable) zSmrtc for spending
 
-zPIV are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
-        <translation>ZPIV disponible (mature et utilisable) pour les dépenses
+zSmrtc are mature when they have more than 20 confirmations AND more than 2 mints of the same denomination after them were minted</source>
+        <translation>ZSmrtc disponible (mature et utilisable) pour les dépenses
 
-Les zPIV sont matures lorsqu'elles ont plus de 20 confirmations ET plus de 2 monnayent de même dénomination après ils était monnayer</translation>
+Les zSmrtc sont matures lorsqu'elles ont plus de 20 confirmations ET plus de 2 monnayent de même dénomination après ils était monnayer</translation>
     </message>
     <message>
-        <source>0 zPIV</source>
-        <translation>0 zPIV</translation>
+        <source>0 zSmrtc</source>
+        <translation>0 zSmrtc</translation>
     </message>
     <message>
         <source>Security Level for Zerocoin Transactions. More is better, but needs more time and resources.</source>
@@ -2488,8 +2488,8 @@ Les zPIV sont matures lorsqu'elles ont plus de 20 confirmations ET plus de 2 mon
         <translation>Statistiques Zerocoin:</translation>
     </message>
     <message>
-        <source>Total Balance including unconfirmed and immature zPIV</source>
-        <translation>Solde total incluant les zPIV non confirmés et immatures</translation>
+        <source>Total Balance including unconfirmed and immature zSmrtc</source>
+        <translation>Solde total incluant les zSmrtc non confirmés et immatures</translation>
     </message>
     <message>
         <source>Total Zerocoin  Balance:</source>
@@ -2510,24 +2510,24 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
 Immature: confirmé, mais moins de 1 monnayer de la même dénomination après sa frappe</translation>
     </message>
     <message>
-        <source>Show the current status of automatic zPIV minting.
+        <source>Show the current status of automatic zSmrtc minting.
 
 To change the status (restart required):
 - enable: add 'enablezeromint=1' to smrtc.conf
 - disable: add 'enablezeromint=0' to smrtc.conf
 
 To change the percentage (no restart required):
-- menu Settings-&gt;Options-&gt;Percentage of autominted zPIV
+- menu Settings-&gt;Options-&gt;Percentage of autominted zSmrtc
 
 </source>
-        <translation>Afficher l'état actuel de monnayage automatique zPIV.
+        <translation>Afficher l'état actuel de monnayage automatique zSmrtc.
 
 Pour changer le statut (redémarrage requis):
 - enable: ajoute 'enablezeromint = 1' au fichier smrtc.conf
 - disable: ajoute 'enablezeromint = 0' au fichier smrtc.conf
 
 Pour changer le pourcentage (pas de redémarrage requis):
-- menu Paramètres-&gt; Options-&gt; Pourcentage de zPIV auto-monnayé
+- menu Paramètres-&gt; Options-&gt; Pourcentage de zSmrtc auto-monnayé
 
 </translation>
     </message>
@@ -2724,12 +2724,12 @@ Maximum allowed: </source>
 Maximum autorisé:</translation>
     </message>
     <message>
-        <source>zPIV Spend #: </source>
-        <translation>Dépense zPIV #:</translation>
+        <source>zSmrtc Spend #: </source>
+        <translation>Dépense zSmrtc #:</translation>
     </message>
     <message>
-        <source>zPIV Mint</source>
-        <translation>Monnayer zPIV</translation>
+        <source>zSmrtc Mint</source>
+        <translation>Monnayer zSmrtc</translation>
     </message>
     <message>
         <source> &lt;b&gt;enabled&lt;/b&gt;.</source>
@@ -2744,12 +2744,12 @@ Maximum autorisé:</translation>
         <translation>Pourcentage cible configuré: &lt;b&gt;</translation>
     </message>
     <message>
-        <source>zPIV is currently disabled due to maintenance.</source>
-        <translation>zPIV est actuellement désactivé pour cause de maintenance.</translation>
+        <source>zSmrtc is currently disabled due to maintenance.</source>
+        <translation>zSmrtc est actuellement désactivé pour cause de maintenance.</translation>
     </message>
     <message>
-        <source>zPIV is currently undergoing maintenance.</source>
-        <translation>zPIV est actuellement en cours de maintenance.</translation>
+        <source>zSmrtc is currently undergoing maintenance.</source>
+        <translation>zSmrtc est actuellement en cours de maintenance.</translation>
     </message>
     <message>
         <source>Denom. with value &lt;b&gt;1&lt;/b&gt;:</source>
@@ -2836,8 +2836,8 @@ Maximum autorisé:</translation>
         <translation>Monnayez réussi</translation>
     </message>
     <message>
-        <source> zPIV in </source>
-        <translation>zPIV dans</translation>
+        <source> zSmrtc in </source>
+        <translation>zSmrtc dans</translation>
     </message>
     <message>
         <source> sec. Used denominations:
@@ -2892,13 +2892,13 @@ Maximum autorisé:</translation>
         <translation>Confirmer l'envoi des pièces</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>La version 1 de zPIV requiert un niveau de sécurité de 100 pour les dépenser.
+        <source>Version 1 zSmrtc require a security level of 100 to successfully spend.</source>
+        <translation>La version 1 de zSmrtc requiert un niveau de sécurité de 100 pour les dépenser.
 </translation>
     </message>
     <message>
-        <source>Failed to spend zPIV</source>
-        <translation>Échec de la dépense de zPIV</translation>
+        <source>Failed to spend zSmrtc</source>
+        <translation>Échec de la dépense de zSmrtc</translation>
     </message>
     <message>
         <source>Failed to fetch mint associated with serial hash</source>
@@ -3232,8 +3232,8 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Chemin du répertoire de sauvegarde personnalisé:</translation>
     </message>
     <message>
-        <source>Custom zPIV Backup Path:</source>
-        <translation>Chemin du répertoire de sauvegarde zPIV personnalisé:</translation>
+        <source>Custom zSmrtc Backup Path:</source>
+        <translation>Chemin du répertoire de sauvegarde zSmrtc personnalisé:</translation>
     </message>
     <message>
         <source>Custom Backups Threshold:</source>
@@ -3676,8 +3676,8 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Taille UTXO:</translation>
     </message>
     <message>
-        <source>0 PIV</source>
-        <translation>0 PIV</translation>
+        <source>0 Smrtc</source>
+        <translation>0 Smrtc</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
@@ -3776,8 +3776,8 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Ajouter un destinataire</translation>
     </message>
     <message>
-        <source>Anonymized PIV</source>
-        <translation>PIV anonymisé</translation>
+        <source>Anonymized Smrtc</source>
+        <translation>Smrtc anonymisé</translation>
     </message>
     <message>
         <source>Balance:</source>
@@ -4152,40 +4152,40 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Reçu via Obfuscation</translation>
     </message>
     <message>
-        <source>PIV Stake</source>
-        <translation>PIV Stake</translation>
+        <source>Smrtc Stake</source>
+        <translation>Smrtc Stake</translation>
     </message>
     <message>
-        <source>zPIV Stake</source>
-        <translation>zPIV Stake</translation>
+        <source>zSmrtc Stake</source>
+        <translation>zSmrtc Stake</translation>
     </message>
     <message>
-        <source>Converted PIV to zPIV</source>
-        <translation>PIV converti en zPIV</translation>
+        <source>Converted Smrtc to zSmrtc</source>
+        <translation>Smrtc converti en zSmrtc</translation>
     </message>
     <message>
-        <source>Spent zPIV</source>
-        <translation>zPIV dépensés</translation>
+        <source>Spent zSmrtc</source>
+        <translation>zSmrtc dépensés</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>PIV reçu depuis zPIV</translation>
+        <source>Received Smrtc from zSmrtc</source>
+        <translation>Smrtc reçu depuis zSmrtc</translation>
     </message>
     <message>
-        <source>Minted Change as zPIV from zPIV Spend</source>
-        <translation>Monnaie rendue à partir d'une dépense zPIV frappée comme zPIV </translation>
+        <source>Minted Change as zSmrtc from zSmrtc Spend</source>
+        <translation>Monnaie rendue à partir d'une dépense zSmrtc frappée comme zSmrtc </translation>
     </message>
     <message>
-        <source>Converted zPIV to PIV</source>
-        <translation>zPIV converti en PIV</translation>
+        <source>Converted zSmrtc to Smrtc</source>
+        <translation>zSmrtc converti en Smrtc</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Transaction)</source>
-        <translation>Anonyme (transaction zPIV)</translation>
+        <source>Anonymous (zSmrtc Transaction)</source>
+        <translation>Anonyme (transaction zSmrtc)</translation>
     </message>
     <message>
-        <source>Anonymous (zPIV Stake)</source>
-        <translation>Anonyme (zPIV Stake)</translation>
+        <source>Anonymous (zSmrtc Stake)</source>
+        <translation>Anonyme (zSmrtc Stake)</translation>
     </message>
     <message>
         <source>Sent to</source>
@@ -4343,12 +4343,12 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Une erreur est survenue lors de la tentative de sauvegarde de l'historique de transaction vers %1.</translation>
     </message>
     <message>
-        <source>Received PIV from zPIV</source>
-        <translation>PIV reçu depuis zPIV</translation>
+        <source>Received Smrtc from zSmrtc</source>
+        <translation>Smrtc reçu depuis zSmrtc</translation>
     </message>
     <message>
-        <source>Zerocoin Spend, Change in zPIV</source>
-        <translation>Dépense Zerocoin, monnaie rendue en zPIV</translation>
+        <source>Zerocoin Spend, Change in zSmrtc</source>
+        <translation>Dépense Zerocoin, monnaie rendue en zSmrtc</translation>
     </message>
     </context>
 <context>
@@ -4398,19 +4398,19 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>0</translation>
     </message>
     <message>
-        <source>zPIV</source>
-        <translation>zPIV</translation>
+        <source>zSmrtc</source>
+        <translation>zSmrtc</translation>
     </message>
     </context>
 <context>
     <name>smrtc-core</name>
     <message>
-        <source>Enable or disable staking functionality for PIV inputs (0-1, default: %u)</source>
-        <translation>Active ou désactive la fonctionnalité de staking pour les entrées PIV (0-1, par défaut: %u)</translation>
+        <source>Enable or disable staking functionality for Smrtc inputs (0-1, default: %u)</source>
+        <translation>Active ou désactive la fonctionnalité de staking pour les entrées Smrtc (0-1, par défaut: %u)</translation>
     </message>
     <message>
-        <source>Enable or disable staking functionality for zPIV inputs (0-1, default: %u)</source>
-        <translation>Active ou désactive la fonctionnalité de staking pour les entrées zPIV (0-1, par défaut: %u)</translation>
+        <source>Enable or disable staking functionality for zSmrtc inputs (0-1, default: %u)</source>
+        <translation>Active ou désactive la fonctionnalité de staking pour les entrées zSmrtc (0-1, par défaut: %u)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
@@ -4880,8 +4880,8 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Synchronisation des sporks ...</translation>
     </message>
     <message>
-        <source>Syncing zPIV wallet...</source>
-        <translation>Synchronisation du portefeuille zPIV ...</translation>
+        <source>Syncing zSmrtc wallet...</source>
+        <translation>Synchronisation du portefeuille zSmrtc ...</translation>
     </message>
     <message>
         <source>The coin spend has been used</source>
@@ -5028,8 +5028,8 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Nom d'utilisateur pour les connections JSON-RPC</translation>
     </message>
     <message>
-        <source>Value is below the smallest available denomination (= 1) of zPIV</source>
-        <translation>La valeur est inférieure à la plus petite dénomination disponible (= 1) de zPIV</translation>
+        <source>Value is below the smallest available denomination (= 1) of zSmrtc</source>
+        <translation>La valeur est inférieure à la plus petite dénomination disponible (= 1) de zSmrtc</translation>
     </message>
     <message>
         <source>Value more than Obfuscation pool maximum allows.</source>
@@ -5044,8 +5044,8 @@ Soit monnayer des dénominations plus élevées (moins d'intrants sont nécessai
         <translation>Vérification du portefeuille...</translation>
     </message>
     <message>
-        <source>Version 1 zPIV require a security level of 100 to successfully spend.</source>
-        <translation>La version 1 de zPIV requiert un niveau de sécurité de 100 pour les dépenser.
+        <source>Version 1 zSmrtc require a security level of 100 to successfully spend.</source>
+        <translation>La version 1 de zSmrtc requiert un niveau de sécurité de 100 pour les dépenser.
 </translation>
     </message>
     <message>
