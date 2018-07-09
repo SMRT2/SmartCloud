@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/smrtc-project/smrtc
+url=https://github.com/SMRT-Cloud/SmartCloud
 proc=2
 mem=2000
 lxc=true
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/smrtc-project/smrtc
+-u|--url	Specify the URL of the repository. Default is https://github.com/SMRT-Cloud/SmartCloud
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -237,8 +237,8 @@ echo ${COMMIT}
 if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
-    git clone https://github.com/MotoAcidic/SmartCloud.git
-    git clone https://github.com/PIVX-Project/smrtc-detached-sigs.git
+    git clone https://github.com/SMRT-Cloud/SmartCloud.git
+    git clone https://github.com/SMRT-Cloud/smrt-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./smrtc
+pushd ./SmartCloud
 git fetch
 git checkout ${COMMIT}
 popd
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./smrtc-binaries/${VERSION}
+	mkdir -p ./SmartCloud-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -279,9 +279,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit smrtc=${COMMIT} --url smrtc=${url} ../smrtc/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../smrtc/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/smrtc-*.tar.gz build/out/src/smrtc-*.tar.gz ../smrtc-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit SmartCloud=${COMMIT} --url SmartCloud=${url} ../SmartCloud/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../SmartCloud/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/SmartCloud-*.tar.gz build/out/src/smrtc-*.tar.gz ../SmartCloud-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -289,10 +289,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit smrtc=${COMMIT} --url smrtc=${url} ../smrtc/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../smrtc/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/smrtc-*-win-unsigned.tar.gz inputs/smrtc-win-unsigned.tar.gz
-	    mv build/out/smrtc-*.zip build/out/smrtc-*.exe ../smrtc-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit smrtc=${COMMIT} --url smrtc=${url} ../SmartCloud/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../SmartCloud/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/SmartCloud-*-win-unsigned.tar.gz inputs/SmartCloud-win-unsigned.tar.gz
+	    mv build/out/SmartCloud-*.zip build/out/smrtc-*.exe ../SmartCloud-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
