@@ -281,7 +281,7 @@ then
 	    echo ""
 	    ./bin/gbuild -j ${proc} -m ${mem} --commit SmartCloud=${COMMIT} --url SmartCloud=${url} ../SmartCloud/contrib/gitian-descriptors/gitian-linux.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../SmartCloud/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/SmartCloud-*.tar.gz build/out/src/smrtc-*.tar.gz ../SmartCloud-binaries/${VERSION}
+	    mv build/out/SmartCloud-*.tar.gz build/out/src/SmartCloud-*.tar.gz ../SmartCloud-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -289,7 +289,7 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit smrtc=${COMMIT} --url smrtc=${url} ../SmartCloud/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit smrtc=${COMMIT} --url SmartCloud=${url} ../SmartCloud/contrib/gitian-descriptors/gitian-win.yml
 	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../SmartCloud/contrib/gitian-descriptors/gitian-win.yml
 	    mv build/out/SmartCloud-*-win-unsigned.tar.gz inputs/SmartCloud-win-unsigned.tar.gz
 	    mv build/out/SmartCloud-*.zip build/out/smrtc-*.exe ../SmartCloud-binaries/${VERSION}
@@ -300,10 +300,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit smrtc=${COMMIT} --url smrtc=${url} ../smrtc/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../smrtc/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/smrtc-*-osx-unsigned.tar.gz inputs/smrtc-osx-unsigned.tar.gz
-	    mv build/out/smrtc-*.tar.gz build/out/smrtc-*.dmg ../smrtc-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit smrtc=${COMMIT} --url smrtc=${url} ../SmartCloud/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../SmartCloud/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/SmartCloud-*-osx-unsigned.tar.gz inputs/SmartCloud-osx-unsigned.tar.gz
+	    mv build/out/SmartCloud-*.tar.gz build/out/SmartCloud-*.dmg ../SmartCloud-binaries/${VERSION}
 	fi
 	# AArch64
 	if [[ $aarch64 = true ]]
@@ -311,9 +311,9 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} AArch64"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit smrtc=${COMMIT} --url smrtc=${url} ../smrtc/contrib/gitian-descriptors/gitian-aarch64.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../smrtc/contrib/gitian-descriptors/gitian-aarch64.yml
-	    mv build/out/smrtc-*.tar.gz build/out/src/smrtc-*.tar.gz ../smrtc-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit smrtc=${COMMIT} --url SmartCloud=${url} ../SmartCloud/contrib/gitian-descriptors/gitian-aarch64.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../SmartCloud/contrib/gitian-descriptors/gitian-aarch64.yml
+	    mv build/out/SmartCloud-*.tar.gz build/out/src/SmartCloud-*.tar.gz ../SmartCloud-binaries/${VERSION}
 	popd
 
         if [[ $commitFiles = true ]]
@@ -340,32 +340,32 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../smrtc/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../SmartCloud/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../smrtc/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../SmartCloud/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../smrtc/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../SmartCloud/contrib/gitian-descriptors/gitian-osx.yml
 	# AArch64
 	echo ""
 	echo "Verifying v${VERSION} AArch64"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../smrtc/contrib/gitian-descriptors/gitian-aarch64.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../SmartCloud/contrib/gitian-descriptors/gitian-aarch64.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../smrtc/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../SmartCloud/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../smrtc/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../SmartCloud/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -380,10 +380,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../smrtc/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../smrtc/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/smrtc-*win64-setup.exe ../smrtc-binaries/${VERSION}
-	    mv build/out/smrtc-*win32-setup.exe ../smrtc-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../SmartCloud/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../SmartCloud/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/SmartCloud-*win64-setup.exe ../SmartCloud-binaries/${VERSION}
+	    mv build/out/SmartCloud-*win32-setup.exe ../SmartCloud-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -391,9 +391,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../smrtc/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../smrtc/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/smrtc-osx-signed.dmg ../smrtc-binaries/${VERSION}/smrtc-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../SmartCloud/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../SmartCloud/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/SmartCloud-osx-signed.dmg ../SmartCloud-binaries/${VERSION}/smrtc-${VERSION}-osx.dmg
 	fi
 	popd
 
