@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: pivxd.service
-Upstart: pivxd.conf
-OpenRC:  pivxd.openrc
-         pivxd.openrcconf
-CentOS:  pivxd.init
+SystemD: smrtcd.service
+Upstart: smrtcd.conf
+OpenRC:  smrtcd.openrc
+         smrtcd.openrcconf
+CentOS:  smrtcd.init
 
 have been made available to assist packagers in creating node packages here.
 

@@ -1,19 +1,19 @@
 [Unit]
-Description=PIVX's distributed currency daemon
+Description=SMRTC's distributed currency daemon
 After=network.target
 
 [Service]
-User=pivx
-Group=pivx
+User=smrtc
+Group=smrtc
 
 Type=forking
-PIDFile=/var/lib/pivxd/pivxd.pid
+PIDFile=/var/lib/smrtcd/smrtcd.pid
 
-ExecStart=/usr/bin/pivxd -daemon -pid=/var/lib/pivxd/pivxd.pid \
-          -conf=/etc/pivx/pivx.conf -datadir=/var/lib/pivxd
+ExecStart=/usr/bin/smrtcd -daemon -pid=/var/lib/smrtcd/smrtcd.pid \
+          -conf=/etc/smrtc/smrtc.conf -datadir=/var/lib/smrtcd
 
-ExecStop=-/usr/bin/pivx-cli -conf=/etc/pivx/pivx.conf \
-         -datadir=/var/lib/pivxd stop
+ExecStop=-/usr/bin/smrtc-cli -conf=/etc/smrtc/smrtc.conf \
+         -datadir=/var/lib/smrtcd stop
 
 Restart=always
 PrivateTmp=true
